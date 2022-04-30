@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+\usepackage{amsfonts}
+\usepackage{amsbsy}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{epstopdf}
+\usepackage{pdfsync}
+\usepackage{natbib}
+\usepackage{caption}
+\textheight 9.2 in \textwidth 6.4 in
+\topmargin -0.15 in       % for PC
+\topmargin -0.7 in       % for Unix
+\oddsidemargin 0.10in %\evensidemargin 0.0in
+\parskip=.00in
+\renewcommand{\baselinestretch} {1.2}
+\makeatletter \setcounter{page}{1}
+\def\singlespace{\def\baselinestretch{1}\@normalsize}
+\def\endsinglespace{}
+
+\@addtoreset{equation}{section}
+\renewcommand{\theequation} {\arabic{section}.\arabic{equation}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newcommand{\distas}[1]{\mathbin{\overset{#1}{\kern\z@\sim}}}%
+
+
+% begin definition
+\def\conas{\stackrel{a.s.} {\rightarrow}}         % conv. a.s.
+\def\conP{\stackrel{\cal P} {\rightarrow}}        % conv. in probability
+\def\conD{\stackrel{\cal D} {\rightsquigarrow}}        % conv. in distribution
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\minimize}{minimize\quad}
+\DeclareMathOperator*{\maximize}{maximize\quad}
+
+\def\iid{\stackrel{ iid} {\sim}}          % i.i.d
+\def\hat{\widehat}
+\def\tilde{\widetilde}
+
+%general sets
+\def\cal{\mathcal}
+\def\calA{{\cal A}} %Action sets
+\def\calB{{\cal B}} %Bounded set
+\def\calC{{\cal C}} %Convex set
+\def\calH{{\cal H}} %Hilbert Space
+\def\calS{{\cal S}} %A regular set
+\def\calNr{{\cal N}_r} %Neighborhood
+\def\calX{{\cal X}} %Covariate space
+\def\calF{{\cal F}} %Function space
+
+%special sets
+\def\bbR{{\mathbb{R}}} %Real number
+\def\bbN{{\mathbb{N}}}%Natural number
+\def\bbQ{{\mathbb{Q}}} %Rational number
+\def\bbZ{{\mathbb{Z}}} %Integer
+
+%Matrix
+\def\bA{{\bf A}}
+\def\bB{{\bf B}}
+\def\bC{{\bf C}}
+\def\bD{{\bf D}}
+\def\bH{{\bf H}}
+\def\bI{{\bf I}}
+\def\bJ{{\bf J}}
+\def\bP{{\bf P}}
+\def\bT{{\bf T}}
+\def\bW{{\bf W}}
+\def\bX{{\bf X}}
+
+%vector
+\def\balpha{{\boldsymbol \alpha}}
+\def\bbeta{{\boldsymbol \beta}}
+\def\btheta{{\boldsymbol \theta}}
+
+\def\bzero{{\bf 0}}
+\def\bone{{\bf 1}}
+\def\bbf{{\bf f}}
+\def\br{{\bf r}}
+\def\by{{\bf y}}
+
+%notations
+\def\sign{{\mathrm{sign}}}
+\def\var{{\mathrm{var}}}
+\def\cov{{\mathrm{cov}}}
+\def\ind{\perp\!\!\!\perp}
+
+%others
+\def\mif{\mathrm{if}\ }
+\def\ow{\mathrm{otherwise}\ }
+\def\st{\mathrm{subject\ to}\quad }
+\def\diag{\mathrm{diag}}
+%\def\minimize{\mathrm{minimize}\quad }
+%\def\maximize{\mathrm{maximize}\quad }
+\def\dom{{\rm dom}}
+
+
+
+\begin{document}
+\title
+{\bf ****}
+\author
+{
+*** *** \\
+%Eli Lilly and Company \\
+%Indianapolis, IN, 46285 \\
+%\textsl{FU\_HAODA@stat.wisc.edu}
+}
+\date{\today}
+\maketitle
+\begin{abstract}
+
+\end{abstract}
+
+\noindent {\bf Key words and Phrases}: *** ***.
+
+\noindent {\bf Short title}: ***
+\section{Introduction}
+
+
+
+
+
+	
+
+% \cite{Shao2003}
+\subsection{Why important}
+
+\setcounter{equation}{0}
+\renewcommand{\theequation} {A.\arabic{equation}}
+\begin{center}
+\bf \Large Appendix A: ***
+\end{center}
+
+
+
+
+\bibliographystyle{/Users/c082213/Documents/GitMan/latex_supp/asaHD.bst}
+\bibliography{/Users/c082213/Documents/GitMan/latex_supp/MyStats}
+
+
+
+
+\end{document}}
